@@ -1,0 +1,33 @@
+<head>
+  <script type="text/javascript" src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-router-dom/4.3.1/react-router-dom.js"></script>
+  <style>
+    .leftNavColumn {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 20em;
+      background-color: lightGray;
+      padding: 20px;
+    }
+    .contentColumn {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 1;
+      padding: 20px;
+    }
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="text/babel" src="./app.js"/>
+</body>
